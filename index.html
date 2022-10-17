@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faça calculos</title>
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Palanquin&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <main>
+    
+    <div class="text-wrapper">
+      <h1>Seja Bem Vindo(a)!</h1>
+      <p>Aqui iremos realizar alguns calculos para você.</p>
+      <p>Vamos além e traremos mais algumas informações.</p>
+    </div>
+    
+    <div class="input-wrapper">
+      
+      <div class="input-wrapper-number">
+        <label>Insira o primeiro número:</label>
+        <input type="number" id="firstNumber" min="1" value="" oninput="validity.valid||(value='');"/>
+      </div>
+      
+      <div class="input-wrapper-number">
+        <label>Insira o segundo número:</label>
+        <input type="number" id="secondNumber" min="1" value="" oninput="validity.valid||(value='');"/>
+      </div>
+      
+    </div>
+    <div>
+      <button onclick="handleClick()">Calcular</button>
+
+    </div>
+    
+
+    <section class="result-wrapper">
+      <p id="addition"></p>
+      <p id="subtraction"></p>
+      <p id="division"></p>
+      <p id="remainder_of_division"></p></br>
+      
+    </section>
+
+    <section>
+      <div class="text-wrapper">
+        <p id="first_sentence"></p>
+        <p id="second_sentence"></p>
+        <p id="sentence"></p>
+
+      </div>
+    </section>
+
+    <div>
+      <button onclick="location.reload(true)">Limpar</button>
+    </div>
+
+  </main>
+  
+  <script src="/script.js"></script>
+</body>
+</html>
