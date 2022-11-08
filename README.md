@@ -42,6 +42,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![4-1](https://user-images.githubusercontent.com/94652702/200233158-f6ab871e-5073-42e4-8b7a-f986e552dfb5.png)
 
 
+## Você pode acessar o projeto online no link abaixo:
+https://explorer-stage-04-1.vercel.app/
+
 ---
 
 Feito com ♥ by Taiane Karine e Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
